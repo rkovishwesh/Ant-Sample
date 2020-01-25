@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<project name="HelloWorld" default="compile" basedir=".">
+
+<!-- set global properties for this build -->
+<property name="src" value="." />
+<property name="build" value="classes" />
+
+<target name="init">
+      <!-- Create the time stamp -->
+<tstamp/>
+</target>
+
+<target name="compile" depends="init">
+      <!-- Compile the java code from ${src} into ${build} -->
+<javac srcdir="${src}" destdir="${build}" />
+</target>
+</project>
