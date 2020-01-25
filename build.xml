@@ -1,6 +1,4 @@
-	 <presetdef name="javac">
-    <javac includeantruntime="false" />
-  </presetdef>
+
 
 <?xml version="1.0"?>
 <project name="the project" default="compile" basedir=".">
