@@ -3,8 +3,8 @@
 <project name="HelloWorld" default="compile" basedir=".">
 
 <!-- set global properties for this build -->
-<property name="src" value="." />
-<property name="build" value="classes" />
+<property name="src" value="."/>
+<property name="build" value="classes"/>
 
 <target name="init">
       <!-- Create the time stamp -->
@@ -13,6 +13,6 @@
 
 <target name="compile" depends="init">
       <!-- Compile the java code from ${src} into ${build} -->
-<javac srcdir="${src}" destdir="${build}" />
+<javac srcdir="${src}" destdir="${build}"/>
 </target>
 </project>
