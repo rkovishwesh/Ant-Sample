@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <project name="the project" default="compile" basedir=".">
+	
+	 <presetdef name="javac">
+    <javac includeantruntime="false" />
+  </presetdef>
 
 	<property name="src.dir" location="src" />
 	<property name="bin.dir" location="bin" />
